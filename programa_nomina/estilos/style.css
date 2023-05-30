@@ -1,0 +1,93 @@
+*{
+     font-family: Arial, sans-serif;
+}
+
+body{
+     background-color: dimgray;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-size: cover;
+     color: rgb(0, 0, 0);
+     
+     
+}
+
+.a{
+     text-align: center;
+     font-size: 50px;
+     color: white;
+     background-color: rgba(0, 0, 0, 0.751);
+     box-shadow: 0px 0px 2pc white;
+
+}.b{
+     border-radius: 20px;
+     margin-top: 150px; 
+     width: 500px;
+     height: 300px;
+     background-color: rgba(105, 105, 105, 0.657);
+     box-shadow: 1pc 1pc 7pc ;
+}
+.error{
+     color: rgba(162, 0, 0, 0.822);
+     font-size: 30px;
+ }    
+
+.titulos{
+     margin-top: 20px;
+     position: relative;
+
+     left:60px;
+     color:white;
+}
+.campos{
+     position: relative;
+     left:60px;
+     color:white;
+}
+.tabla{
+     
+     text-align: center;
+     width: 800px; 
+     height: 500px;
+     background-color:dimgray;
+     display:grid;
+     color: white;
+     border-radius: 10px;
+     margin-top: 50px;
+     box-shadow: 2px 2px 7px rgb(0, 0, 0);
+     grid-template-rows: repeat(2,1fr);
+   
+    
+}
+.boton{
+     top: 25px;
+     border-radius:15px ;
+     position: relative;
+     margin-left:27px ;
+     text-align: center;
+     width: 150px;
+     height: 30px;
+     text-decoration: none;
+     color: white;
+     background-color: rgba(135, 130, 130, 0.477);
+     box-shadow: 1px 1px 7px rgba(255, 255, 255, 0.424);
+     border: 0;
+}
+.boton:hover{
+     background-color: rgba(137, 64, 64, 0.682);
+}
+.boton:active{
+     transform: scale(1.2);
+}
+.botones{
+     box-shadow: 4px 4px 7px black;
+     border-radius: 15px;
+     height: 80px;
+     width: 800px;
+     background-color: dimgrey;
+     display: grid;
+     grid-auto-flow: column;
+     position: relative;
+     margin-left: 550px;
+     
+}
